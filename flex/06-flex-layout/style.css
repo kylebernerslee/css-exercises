@@ -25,3 +25,43 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* SOLUTION */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  gap:8px;
+}
+
+ul {
+  display: flex;
+  font-size: 11px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  min-width: 20%;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+button {
+  padding:8px;
+}
+
+a {
+  color: #6b6b6b;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
